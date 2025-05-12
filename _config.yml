@@ -24,10 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Sonja V."
   pronouns         : # example: "she/her"  
-  bio              : "Molecular Biologist/Bioinformatics Masters Student"
+  bio              : "Molecular Biologist/Computational Biology Masters Student"
   location         : "Vienna, Austria"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "vukotic.sonja@proton.me" 
 
   # Academic websites
   
@@ -38,13 +38,6 @@ author:
 
   # Social media
   linkedin         : # Username
-
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -59,10 +52,6 @@ comments:
     shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
