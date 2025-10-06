@@ -3,7 +3,6 @@
 header_pages:
   - index.md
   - projects.md
-  - about.md
   - contact.md
 
 footer: '<a href="https://twitter.com/">theme</a>'
