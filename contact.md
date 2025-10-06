@@ -20,7 +20,4 @@ permalink: /contact
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
-<**input** type="text" name="_gotcha" style="display:none" />
 {:/nomarkdown}
-
-</script>
