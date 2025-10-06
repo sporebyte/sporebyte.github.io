@@ -1,5 +1,5 @@
 ---
-title: home
+title: sporebyte
 layout: home
 permalink: /
 ---
