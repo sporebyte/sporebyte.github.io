@@ -6,12 +6,12 @@ permalink: /
 
 <style>
 .profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 20px auto;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 20px auto !important;
 }
 .text-block {
   max-width: 600px;
