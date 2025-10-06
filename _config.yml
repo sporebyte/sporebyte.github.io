@@ -1,7 +1,7 @@
 # Example Site settings
 
 header_pages:
-  - home.md
+  - index.md
   - projects.md
   - about.md
   - contact.md
