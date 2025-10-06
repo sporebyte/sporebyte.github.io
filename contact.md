@@ -1,1 +1,4 @@
-
+---
+title: Contact
+layout: page
+---
