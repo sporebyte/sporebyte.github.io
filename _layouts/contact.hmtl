@@ -32,6 +32,14 @@ script-src 'self';
       {%- include header.html -%}
 
     <main>
+<style>
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    background-color: #f7f7f8;
+  }
+</style>
+
 
 <form
   action="https://formspree.io/f/xnngzwqo"
