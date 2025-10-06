@@ -8,10 +8,10 @@ permalink: /
 <div class="text-block">
 I'm a bioinformatics graduate student fascinated by the physical principles underlying biological systems. My interests include data visualization, biophysical modeling, image processing, and computational simulations of living systems. With a background in microbiology and genetics, I enjoy bridging experimental data with computational approaches.
 </div>
+<br>
 
 <!-- Most robust: set width/height attributes AND inline styles -->
-<img
+<center><img
   src="profile.png"
-  width="120"
-  height="120"
-  style="border-radius:50%;">
+  width="100"
+  height="100"></center>
