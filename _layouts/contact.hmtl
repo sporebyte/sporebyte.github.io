@@ -39,15 +39,15 @@ script-src 'self';
 >
   <label>
     Your email:
-    <input type="email" name="email"><br><br>
+    <input type="email" name="email" style="background-color: #f7f7f8; border: 1px solid #ccc; padding: 8px; width: 100%;" ><br><br>
   </label>
   <label>
     Your name:
-    <textarea name="name"></textarea><br><br>
+    <textarea name="name" style="background-color: #f7f7f8; border: 1px solid #ccc; padding: 8px; width: 100%;" ></textarea><br><br>
   </label>
   <label>
     Your message:
-    <textarea name="message"></textarea><br><br>
+    <textarea name="message" style="background-color: #f7f7f8; border: 1px solid #ccc; padding: 8px; width: 100%; height: 100px;"></textarea><br><br>
   </label>
   <button type="submit">Send</button>
 </form>
