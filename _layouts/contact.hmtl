@@ -42,6 +42,10 @@ script-src 'self';
     <input type="email" name="email"><br><br>
   </label>
   <label>
+    Your name:
+    <textarea name="name"></textarea><br><br>
+  </label>
+  <label>
     Your message:
     <textarea name="message"></textarea><br><br>
   </label>
