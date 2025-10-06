@@ -39,11 +39,11 @@ script-src 'self';
 >
   <label>
     Your email:
-    <input type="email" name="email" style="background-color: #f7f7f8; border: 1px solid #ccc; padding: 8px; width: 100%;" ><br><br>
+    <input type="email" name="email"><br><br>
   </label>
   <label>
     Your name:
-    <textarea name="name" style="background-color: #f7f7f8; border: 1px solid #ccc; padding: 8px; width: 100%;" ></textarea><br><br>
+    <input type ="text" name="name"><br><br>
   </label>
   <label>
     Your message:
