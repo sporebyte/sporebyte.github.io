@@ -1,11 +1,12 @@
 # Example Site settings
 
 header_pages:
+  - home.md
   - projects.md
   - about.md
   - contact.md
 
-footer: 'follow us on <a href="https://twitter.com/">theme</a>'
+footer: '<a href="https://twitter.com/">theme</a>'
 
 plugins:
   - jekyll-seo-tag
