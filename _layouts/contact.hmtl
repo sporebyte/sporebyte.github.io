@@ -39,13 +39,12 @@ script-src 'self';
 >
   <label>
     Your email:
-    <input type="email" name="email">
+    <input type="email" name="email"><br><br>
   </label>
   <label>
     Your message:
-    <textarea name="message"></textarea>
+    <textarea name="message"></textarea><br><br>
   </label>
-  <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
 
