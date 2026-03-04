@@ -6,7 +6,7 @@ permalink: /
 
 
 <div class="text-block">
-I'm a bioinformatics graduate student fascinated by the physical principles underlying biological systems. My interests include data visualization, biophysical modeling, image processing, and computational simulations of living systems. With a background in microbiology and genetics, I enjoy bridging experimental data with computational approaches.
+I'm a bioinformatics graduate student fascinated by the physical principles underlying biological systems. My interests include data visualization, image processing and structural biology. I enjoy bridging experimental data with computational approaches.
 </div>
 <br>
 
