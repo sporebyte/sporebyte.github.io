@@ -1,0 +1,35 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "Get in touch with sporebyte",
+	title: "Contact",
+};
+
+const inputClass =
+	"border-muted focus-visible:outline-accent w-full border bg-transparent px-3 py-2 focus-visible:outline-2";
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-12">Contact</h1>
+	<form action="https://formspree.io/f/xnngzwqo" class="flex max-w-xl flex-col gap-6" method="POST">
+		<label class="flex flex-col gap-2">
+			Your email
+			<input class={inputClass} name="email" required type="email" />
+		</label>
+		<label class="flex flex-col gap-2">
+			Your name
+			<input class={inputClass} name="name" type="text" />
+		</label>
+		<label class="flex flex-col gap-2">
+			Your message
+			<textarea class={`${inputClass} min-h-40 resize-y`} name="message" required></textarea>
+		</label>
+		<button
+			class="border-accent text-accent hover:bg-accent hover:text-global-bg cursor-pointer self-start border px-4 py-2 font-semibold"
+			type="submit"
+		>
+			Send
+		</button>
+	</form>
+</PageLayout>
