@@ -4,7 +4,7 @@ import { Icon } from "astro-icon/components";
 /** 
 	Uses https://www.astroicon.dev/getting-started/
 	Find icons via guide: https://www.astroicon.dev/guides/customization/#open-source-icon-sets
-	Only installed pack is: @iconify-json/mdi
+	Installed packs: @iconify-json/mdi, @iconify-json/simple-icons
 */
 const socialLinks: {
 	friendlyName: string;
@@ -17,26 +17,34 @@ const socialLinks: {
 		link: "https://github.com/sporebyte",
 		name: "mdi:github",
 	},
+	{
+		friendlyName: "Bluesky",
+		link: "https://sonjavuk.bsky.social",
+		name: "simple-icons:bluesky",
+	},
+	{
+		friendlyName: "LinkedIn",
+		link: "https://www.linkedin.com/in/sonja-v-b96357309/",
+		name: "mdi:linkedin",
+	},
 ];
 ---
 
 <div class="flex flex-wrap items-end gap-x-2">
 	<p>Find me on</p>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
-		{
-			socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
-				<li class="flex">
-					<a
-						class="hover:text-link inline-block"
-						href={link}
-						rel={`noreferrer ${isWebmention ? "me authn" : ""}`}
-						target="_blank"
-					>
-						<Icon aria-hidden="true" class="h-8 w-8" focusable="false" name={name} />
-						<span class="sr-only">{friendlyName}</span>
-					</a>
-				</li>
-			))
-		}
+		{socialLinks.map(({ friendlyName, isWebmention, link, name }) => (
+			<li class="flex">
+				<a
+					class="hover:text-link inline-block"
+					href={link}
+					rel={`noreferrer ${isWebmention ? "me authn" : ""}`}
+					target="_blank"
+				>
+					<Icon aria-hidden="true" class="h-8 w-8" focusable="false" name={name} />
+					<span class="sr-only">{friendlyName}</span>
+				</a>
+			</li>
+		))}
 	</ul>
 </div>
